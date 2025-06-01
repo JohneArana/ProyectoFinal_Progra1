@@ -45,7 +45,7 @@ void loop() {
     digitalWrite(led, LOW);       // Apagar LED
     digitalWrite(IN1, HIGH);      // Encender motor
     digitalWrite(IN2, LOW);
-    analogWrite(ENA, 200);        // Velocidad media
+    analogWrite(ENA, 20);        // Velocidad mototr
   }
 
   delay(500); // Espera medio segundo
